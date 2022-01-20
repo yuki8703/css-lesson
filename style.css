@@ -14,7 +14,7 @@ h1 {
 </head>
 
 // 外部ファイルから読み込む
-##<link rel="stylesheet">
+##<link rel="stylesheet" type="text/css" href="style.css">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 h1 {
