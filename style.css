@@ -1,12 +1,24 @@
 //直接記述
-<h1 style="color: red;"><p style="font-size:10px;"> //headタグの中にstyleタグを使用し記述
-##<style type=text="text/css"><head>h1 {
+<h1 style="color: red;">
+<p style="font-size:10px;">
+
+//headタグの中にstyleタグを使用し記述
+##<style type=text="text/css">
+<head>
+<style type=text="text/css">
+h1 {
     color: blue;
     font-size: 18px;
 }
+</style>
+</head>
 
-</style></head> // 外部ファイルから読み込む
-##<link rel="stylesheet"><head><link rel="stylesheet" type="text/css" href="style.css"></head>h1 {
+// 外部ファイルから読み込む
+##<link rel="stylesheet">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+h1 {
     color: green;
     font-size: 10px;
 }
+</head>
